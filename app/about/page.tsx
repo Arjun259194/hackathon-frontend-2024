@@ -15,7 +15,7 @@ const Heading = ({ children }: UIComponent) => {
 export default function page() {
   return (
     <div className="space-y-20">
-      <section className="mx-auto container space-y-10">
+      <section className="mx-auto py-10 container space-y-10">
         <div className="space-y-4">
           <Heading>Why is this project important?</Heading>
           <Paragraph>
@@ -75,11 +75,26 @@ export default function page() {
               through training.
             </Paragraph>
             <Paragraph>
+              <img
+                src="https://images.prismic.io/launchdarkly/6bfcaa10-40a3-42a5-9346-9e83d25cbeb4_What's%20So%20Great%20About%20Next.js.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&rect=0%2C0%2C4000%2C2252&w=2000&h=1126"
+                className="aspect-video w-1/2"
+                alt="nextjs image"
+              />
+            </Paragraph>
+
+            <Paragraph>
               On the backend, we rely on Node.js, a fast and scalable runtime
               environment, to manage data flow and ensure seamless communication
               between the AI models and the user interface. This ensures the
               dashboard can handle large volumes of image data while maintaining
               performance and responsiveness.
+            </Paragraph>
+            <Paragraph>
+              <img
+                src="https://res.cloudinary.com/practicaldev/image/fetch/s--1cI_HEtt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kioot4ilontcqokek526.png"
+                className="aspect-video w-1/2"
+                alt="javascript and typescript image"
+              />
             </Paragraph>
             <Paragraph>
               By combining these powerful technologies, we are able to deliver a
@@ -90,10 +105,6 @@ export default function page() {
             </Paragraph>
           </div>
         </div>
-      </section>
-
-      <section>
-        <Heading>Team members</Heading>
       </section>
     </div>
   );

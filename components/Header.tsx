@@ -7,10 +7,10 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex items-center border-b-2 border-b-gray-200 justify-between container mx-auto py-3">
+    <header className="flex items-center shadow-md shadow-gray-300 rounded-md px-4 my-3 justify-between container mx-auto py-3">
       <div className="flex items-center space-x-10">
         <h1 className="text-3xl font-semibold capitalize">
-          <Link href="/">GB</Link>
+          <Link href="/">LifestyleForEnvironment</Link>
         </h1>
         <nav className="hidden md:flex">
           <ul className="flex space-x-4">
